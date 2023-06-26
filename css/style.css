@@ -1,10 +1,44 @@
-#them{
+#them {
     background-color: black;
 }
-h1{
+
+#onetext {
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Ysabeau Office', sans-serif;
     color: lightgreen;
     user-select: none;
 }
-h5{
+
+#text2{
+    font-size: 20px;
+}
+
+#kyouchou1{
+    font-family: 'Noto Sans JP', sans-serif;
     color: lightgreen;
+    font-size: 50px;
+
+}
+
+#text1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    color: lightgreen;
+}
+
+.btn-style {
+    background: lightgreen;
+    border-color: red;
+}
+
+#btn-play1 {
+    color: blue;
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background: #00fa9a;
+    border-color: #00fa9a;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
 }

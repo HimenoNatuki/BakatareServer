@@ -5,12 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@1,1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
     <title>BakatareServer</title>
 </head>
 
 <body id="them">
-    <h1 onclick="kusa()">Welcome to BakatareServer!</h1>
-    <h5>身内サーバーだお</h5>
+    <h1 id="onetext" onclick="kusa()">Welcome to BakatareServer!</h1>
+    <div id="text1">
+        <h3>まぁ適当にやる気が出たら更新していきますよ～</h3>
+        <h3 id="text2">アー入店の音ー(棒)</h3>
+        <h3>音量注意!!</h3>
+        <button class="btn-style" id="btn-play1" type="button"><span
+                class="material-symbols-outlined">入店</span></button>
+        <h3 id="kyouchou1">身内サーバーだお</h3>
+    </div>
+    
+
+
+
+    <audio id="bgm1" preload>
+        <source src="Audio/素材ファミリーマート 入店音.mp3" type="audio/mp3">
+    </audio>
+
+
     <script src="js/script.js"></script>
 
 </body>
