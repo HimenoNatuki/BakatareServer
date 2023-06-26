@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #1F1F1F;
 }
 
@@ -10,11 +10,11 @@ body{
     user-select: none;
 }
 
-#text2{
+#text2 {
     font-size: 20px;
 }
 
-#kyouchou1{
+#kyouchou1 {
     font-family: 'Noto Sans JP', sans-serif;
     color: lightgreen;
     font-size: 50px;
