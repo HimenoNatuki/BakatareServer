@@ -1,19 +1,44 @@
 body {
-    background-color: green;
     
+    background-color: #1F1F1F;
 }
-#youkoso{
+
+#youkoso {
+    user-select: none;
+    color: red;
     user-select: none;
     text-align: center;
 }
-#homeimage{
+
+#homeimage {
     user-select: none;
 }
 
-.material-symbols-outlined {
-    border-color: red;
+nav {
+    width: 50%;
+    height: 60px;
+    background-color: #1F1F1F;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+#d2{
     user-select: none;
     color: red;
-    font-size: 100x;
-    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+}
+#d2:hover{
+    user-select: none;
+    color: blue;
+}
+
+#scretimg{
+    width: 50px;
+    height: 50px;
 }
