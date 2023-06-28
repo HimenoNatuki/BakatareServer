@@ -15,3 +15,9 @@ btn1.addEventListener("click", () => {
         bgm1.play();
     }
 });
+
+function sirakamihubukichan(){
+    document.location.href = "templates/filehyou/index.html";
+}
+let sirakamihubuki = document.getElementById('kyouchou1');
+sirakamihubuki.addEventListener('dblclick',sirakamihubukichan)

@@ -1,0 +1,3 @@
+function homeback() {
+    location.href = "/";
+}

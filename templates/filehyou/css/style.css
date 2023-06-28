@@ -1,0 +1,19 @@
+body {
+    background-color: green;
+    
+}
+#youkoso{
+    user-select: none;
+    text-align: center;
+}
+#homeimage{
+    user-select: none;
+}
+
+.material-symbols-outlined {
+    border-color: red;
+    user-select: none;
+    color: red;
+    font-size: 100x;
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+}
